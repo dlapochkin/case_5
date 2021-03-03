@@ -16,5 +16,5 @@ with open('output.txt','w') as f_out:
                 att = part [part.find('>')+1:part.find('</th>')]
                 u= att.replace('\\','')
                 u=u.replace('n','')
-                print(u, file=f_out)
+                print(u.strip(), file=f_out)
                 part=part[part.find('</th>')+5:]

@@ -6,3 +6,4 @@ text = str(s)
 part_name = text.find("nfl-c-player-header__title")
 name = text[text.find('>',part_name)+1:text.find('</h1',part_name)]
 print(name)
+print(name)

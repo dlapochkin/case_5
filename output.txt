@@ -1,54 +1,6 @@
-Bryce Petty
-245
-130
-53.06
-1353
-5.5
-98
-4
-10
-Jimmy Garoppolo
-977
-659
-67.45
-8042
-8.2
-348
-51
-26
-Matt Moore
-1074
-645
-60.06
-7597
-7.1
-526
-49
-36
-AJ McCarron
-174
-109
-62.64
-1173
-6.7
-142
-6
-3
-Ryan Mallett
-345
-190
-55.07
-1835
-5.3
-130
-9
-10
-Landry Jones
-169
-108
-63.91
-1310
-7.8
-185
-8
-7
+Bryce Petty         130    245    1353   4      10     
+Jimmy Garoppolo     659    977    8042   51     26     
+Matt Moore          645    1074   7597   49     36     
+AJ McCarron         109    174    1173   6      3      
+Ryan Mallett        190    345    1835   9      10     
+Landry Jones        108    169    1310   8      7      

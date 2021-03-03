@@ -14,7 +14,7 @@ with open('output.txt','w') as f_out:
             part= text[text.find("passingAttempts")+1:text.find("passingFirstdowns")]
             while '>' in part:
                 att = part [part.find('>')+1:part.find('</th>')]
-                u= att.replace('/','')
+                u= att.replace('\\','')
                 u=u.replace('n','')
                 print(u, file=f_out)
                 part=part[part.find('</th>')+5:]

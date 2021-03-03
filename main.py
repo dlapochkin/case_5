@@ -1,4 +1,3 @@
-
 import urllib.request
 with open('input.txt') as f_in:
     for line in f_in:

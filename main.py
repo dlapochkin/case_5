@@ -1,3 +1,9 @@
+"""Case-study #4 Парсинг web-страниц
+Разработчики:
+Кривошапова Д.Е (70%)
+Лапочкин Д.А (15%)
+Кузнецов А.Д (20%)
+"""
 import urllib.request
 with open('output.txt','w') as f_out:
     with open('input.txt') as f_in:

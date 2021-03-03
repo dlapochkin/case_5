@@ -9,12 +9,12 @@ with open('output.txt','w') as f_out:
             part_name = text.find("nfl-c-player-header__title")
             name = text[text.find('>',part_name)+1:text.find('</h1',part_name)]
             print(name)
-
             print(name, file=f_out)
-            """part_att = text.find("passingAttempts")
-            att = text[text.find('>',part_att)+1:text.find('</th>',part_att)]
-            u=''
-            for l in att:
-                if l.isdigit():
-                    u+=l
-                print(u, file=f_out)"""
+
+            part= text[text.find("passingAttempts")+1:text.find("passingFirstdowns")]
+            '''while '>' in part:
+                att = part [part.find('>')+1:text.find('</th>')]
+                u= att.replace('/','')
+                u=u.replace('n','')
+                print(u, file=f_out)
+                part=part[text.find('</th>'):]'''
